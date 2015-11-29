@@ -5,7 +5,7 @@ require 'mysql2'
 require 'json'
 
 ActiveRecord::Base.configurations = YAML.load_file('database.yml')
-ActiveRecord::Base.establish_connection(:development)
+ActiveRecord::Base.establish_connection(:production)
 
 class Coupon < ActiveRecord::Base
 end
