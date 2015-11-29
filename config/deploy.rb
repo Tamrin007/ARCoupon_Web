@@ -3,7 +3,7 @@ lock '3.2.1'
 set :application, 'ARCoupon_Web' # アプリケーション名
 set :repo_url, 'git@github.com:Tamrin007/ARCoupon_Web.git' # レポジトリのSSH clone URL
 set :branch, 'master' # デプロイしたいブランチ名
-set :deploy_to, '/var/www/vhosts/sinatra/ARCoupon_Web' # デプロイ先サーバのディレクトリ
+set :deploy_to, '/var/www/vhosts/sinatra' # デプロイ先サーバのディレクトリ
 set :scm, :git
 set :log_level, :debug
 set :pty, true

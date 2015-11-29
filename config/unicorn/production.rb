@@ -1,4 +1,4 @@
-@app_path = '/var/www/vhosts/sinatra/ARCoupon_Web' # デプロイ先サーバのディレクトリ
+@app_path = '/var/www/vhosts/sinatra' # デプロイ先サーバのディレクトリ
 working_directory @app_path + "/current"
 
 worker_processes 2
